@@ -1,13 +1,29 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
 * { 
     font-family: 'My Lucida', Console;
 }
+
+.col aside {
+    float: top;
+}
+.name-photo aside{
+    float: left;
+}
+.station{
+    float: right;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 1.5em;
+}
+
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -219,3 +235,7 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
