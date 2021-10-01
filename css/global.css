@@ -20,10 +20,9 @@
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 5fr 2fr;
     grid-gap: 1.5em;
 }
-
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -233,9 +232,23 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
+/* Medium devices (phones, 320px and up) */
+@media screen and (min-width: 320px) { 
+    .container-fluid { 
+    }
+}
 
+@media screen and (min-width: 550px) { 
+    .container-fluid { 
+    }
+}
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media screen and (max-width: 950px) { 
+    .container-fluid { 
+    }
+}
 
+@media screen and (min-width: 1500px){
+    .container-fluid {
+    }
 }
