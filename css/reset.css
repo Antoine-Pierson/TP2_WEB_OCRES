@@ -37,7 +37,8 @@ footer,header,hgroup,menu,nav,section {
 }
 
 nav ul {
-    list-style:none;
+    list-style: none;
+    padding: 0px
 }
 
 blockquote, q {
