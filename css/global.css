@@ -141,10 +141,6 @@ h1 {
     color: #4b5c66;
 }
 
-.links{
-    float: right;
-}
-
 main h2 {
     margin-top: 0.2em;
     font-size: 1.6em;
@@ -243,23 +239,33 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
-/* Medium devices (phones, 320px and up) */
-@media screen and (min-width: 320px) { 
-    .container-fluid { 
+/*Large Phone and less*/
+@media screen and (max-width: 430px) {
+    .name p a {
+        display: none;
     }
 }
 
-@media screen and (min-width: 550px) { 
-    .container-fluid { 
+/*Medium Tablet and less*/
+@media screen and (max-width: 550px) {
+    .search{
+        display: none;
     }
 }
 
-@media screen and (max-width: 950px) { 
-    .container-fluid { 
-    }
+
+@media screen and (min-width: 320px) {
+    
 }
 
-@media screen and (min-width: 1500px){
-    .container-fluid {
-    }
+@media screen and (min-width: 450px){
+
+}
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 1400px){
+
 }
