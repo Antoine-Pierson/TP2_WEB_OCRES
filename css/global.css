@@ -231,6 +231,10 @@ nav.browse a, nav.music a {
     padding-top: 0.1em;
 }
 
+.user .dropdown-menu a{
+    font-size: 0.8em;
+}
+
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
 nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
@@ -240,14 +244,14 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
 /*Large Phone and less*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 429.98px) {
     .name p a {
         display: none;
     }
 }
 
 /*Medium Tablet and less*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 549.98px) {
     .search{
         display: none;
     }
@@ -255,17 +259,172 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
 @media screen and (min-width: 320px) {
-    
+
+    .btn-group button{
+        font-size: 60%;
+    }
+    .btn-group .dropdown-menu{
+        min-width: 60% !important;
+        font-size: 60%;
+    }
+
+    .name-photo h1, p{
+        font-size: 80%;
+        padding-left: 2.5em;
+    }
+
+    .stats-links span, a{
+        font-size: 80%;
+    }
+
+    main h2{
+        font-size: 85%;
+    }
+    main .station{
+        font-size: 70%;
+    }
+
+    #albums {
+        font-size: 70%;
+    }
+    #albums article figure img {
+        width: 70%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 450px){
 
+    .btn-group button{
+        font-size: 70%;
+    }
+    .btn-group .dropdown-menu{
+        min-width: 70% !important;
+        font-size: 70%;
+    }
+
+    .name-photo h1, p{
+        font-size: 100%;
+        padding-left: 2em;
+    }
+
+    .stats-links span, a{
+        font-size: 100%;
+    }
+
+    main h2{
+        font-size: 95%;
+    }
+    main .station{
+        font-size: 80%;
+    }
+
+    #albums {
+        font-size: 80%;
+    }
+    #albums article figure img {
+        width: 80%;
+        height: auto;
+    }
 }
+
 
 @media screen and (min-width: 600px){
 
+    .btn-group button{
+        font-size: 80%;
+    }
+    .btn-group .dropdown-menu{
+        min-width: 80% !important;
+        font-size: 80%;
+    }
+
+    main h2{
+        font-size: 105%;
+    }
+    main .station{
+        font-size: 90%;
+    }
+
+    #albums {
+        font-size: 90%;
+    }
+    #albums article figure img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .img-luke img {
+        width: 180%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .btn-group button{
+        font-size: 90%;
+    }
+    .btn-group .dropdown-menu{
+        min-width: 90% !important;
+        font-size: 90%;
+    }
+
+    .img-luke img {
+        width: 110%;
+        height: auto;
+    }
+
+    .name-photo h1, p{
+        font-size: 110%;
+        padding-left: 1.5em;
+    }
+
+    main h2{
+        font-size: 125%;
+    }
+    main .station{
+        font-size: 95%;
+    }
+
+    #albums {
+        font-size: 100%;
+    }
+    #albums article figure img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 1400px){
 
+    .btn-group button{
+        font-size: 100%;
+    }
+    .btn-group .dropdown-menu{
+        min-width: 90% !important;
+        font-size: 90%;
+    }
+
+    .name-photo h1, p{
+        font-size: 130%;
+        padding-left: 1em;
+    }
+
+    main h2{
+        font-size: 135%;
+    }
+    main .station{
+        font-size: 100%;
+    }
+
+    #albums {
+        font-size: 110%;
+    }
+    #albums article figure img {
+        width: 100%;
+        height: auto;
+    }
 }
